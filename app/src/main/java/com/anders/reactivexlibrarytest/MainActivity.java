@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public Object call(Boolean aBoolean) {
 
-                        return "Your array has an error: " + aBoolean;
+                        return "Your array has no outliers: " + aBoolean;
                     }
                 })
                 .subscribe(new Action1<Object>() {
